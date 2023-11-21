@@ -12,6 +12,7 @@ function CreateJob() {
   );
   const [jobApplication, setJobApplication] = useState(intialJobApplication);
 
+  
   function closeModal() {
     setIsOpen(false);
     setJobApplicationError(intialJobApplicationError);
